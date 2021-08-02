@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.background-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-heading-1 {
+  color: #1e293b;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 25px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.form-and-image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.description {
+  color: #475569;
+  font-size: 14px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.name-search {
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+.text-area {
+  width: 65%;
+  margin-bottom: 15px;
+  height: 120px;
+}
+
+.button-style {
+  width: 40%;
+  margin-bottom: 15px;
+  background-color: #0284c7;
+  color: #ffffff;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.line {
+  color: #334155;
+  width: 1px;
+}
+.count-of-comments-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.count-of-comments {
+  font-size: 12px;
+  background-color: #0284c7;
+  color: #ffffff;
+  width: 30px;
+  border-radius: 150px;
+  text-align: center;
+}
+
+.comments-heading {
+  color: #475569;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.unordered_list {
+  list-style-type: none;
+}
